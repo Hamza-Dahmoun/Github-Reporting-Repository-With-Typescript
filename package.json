@@ -1,0 +1,20 @@
+{
+  "name": "github-reporting-repository-with-typescript",
+  "version": "1.0.0",
+  "description": "This is a github reporting project built with Typescript to use Github api. I followed Java Brains youtube channel to build this application.",
+  "main": "index.js",
+  "scripts": {
+    "start":"tsc && node out/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hamza-Dahmoun/Github-Reporting-Repository-With-Typescript.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Hamza-Dahmoun/Github-Reporting-Repository-With-Typescript/issues"
+  },
+  "homepage": "https://github.com/Hamza-Dahmoun/Github-Reporting-Repository-With-Typescript#readme"
+}
