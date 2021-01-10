@@ -4,7 +4,7 @@
   "description": "This is a github reporting project built with Typescript to use Github api. I followed Java Brains youtube channel to build this application.",
   "main": "index.js",
   "scripts": {
-    "start":"tsc && node out/index.js",
+    "start": "tsc && node out/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -16,5 +16,13 @@
   "bugs": {
     "url": "https://github.com/Hamza-Dahmoun/Github-Reporting-Repository-With-Typescript/issues"
   },
-  "homepage": "https://github.com/Hamza-Dahmoun/Github-Reporting-Repository-With-Typescript#readme"
+  "homepage": "https://github.com/Hamza-Dahmoun/Github-Reporting-Repository-With-Typescript#readme",
+  "dependencies": {
+    "lodash": "^4.17.20",
+    "request": "^2.88.2"
+  },
+  "devDependencies": {
+    "@types/lodash": "^4.14.167",
+    "@types/request": "^2.48.5"
+  }
 }
